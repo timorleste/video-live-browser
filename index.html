@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Video Background</title>
+		
+		<link rel="icon" 
+        type="image/png" 
+        href="https://caravela.files.wordpress.com/2016/07/ico.png">
+	
+	
+	<meta name="keywords" content="Timor Leste, Audiovisual, Archive, Center, CAMSTL" />
+	<meta name="author" content="timorleste@live.com" />
+		
+		
+		
+		
+		<!-- Styles -->
+		<link rel="stylesheet" href="dist/css/yt-video-background.min.css">
+		<!-- Demo only styles -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<style>
+			h1, p {
+				margin: 0;
+				padding: 0;
+			}
+			.demo-box {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				background-color: rgba(0, 0, 0, 0.4);
+				border-radius: 11px;
+				padding: 32px 16px 32px 16px;
+				color: #fff;
+				font-family: 'Roboto', sans-serif;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="video-background"></div>
+		<div class="demo-box">
+			<h1>CAMSTL</h1>
+			<br>
+			<p>Centro Audiovisual Max Stahl Timor-Leste</p>
+		</div>
+		<!-- Scripts -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		
+		
+		<script src="dist/js/yt-video-background.min.js" charset="utf-8"></script>
+		<script type="text/javascript">
+			$('.video-background').youtubeBackground({
+				videoId: 'An_CLpz34hE',
+				backgroundColor: '#212121',
+				backgroundImage: 'https://caravela.files.wordpress.com/2016/07/ico.png', // For mobile devices
+				opacity: 0.6
+			});
+		</script>
+	
+
+</script>
+	</body>
+</html>
